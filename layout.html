@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabelas</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        th, td, tr {
+            border: 1px solid brown;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+
+        h2 {
+            font-family: sans-serif; color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: center;">
+        <h1 style="font-family: sans-serif; color: brown;">Tabelas - layout</h1>
+    </header>
+    <main>
+        <div>
+            <table style="width: 60%; background-color: aliceblue; justify-content: center;">
+                <tr>
+                    <th colspan="2">TOPO</th>
+                </tr>
+                <tr align="center">
+                    <td rowspan="2" style="width: 100px; height: 200px;">MENU</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td rowspan="1">CONTEÚDO</td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" style="width: 500px; height: 50px;">RODAPÉ</td>
+                </tr>
+
+            </table>
+        </div>
+        <br>
+        <br>
+    </main>
+    <br>
+    <footer style="text-align: right;">
+        <a href="./tabelas-teste.html">página 3 de exercícios</a>
+    </footer>
+
+    
+</body>
+</html>

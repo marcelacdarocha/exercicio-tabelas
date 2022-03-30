@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio tabelas</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        th, td {
+            border: 1px solid brown;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: center;">
+        <h1 style="font-family: sans-serif; color: brown;">Tabelas</h1>
+    </header>
+    <main>
+        <h2 style="font-family: sans-serif; color: brown;"> tabela 1</h2>
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <td style="text-align: left;">1</td>
+                    <td style="text-align: left;">2</td>
+                    <td style="text-align: left;">3</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">6</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">7</td>
+                    <td style="text-align: right;">8</td>
+                    <td style="text-align: right;">9</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <h2 style="font-family: sans-serif; color: brown;">tabela 2</h2>
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: center;">4</td>                    
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <h2 style="font-family: sans-serif; color: brown;">tabela 3</h2>
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td rowspan="3" style="text-align: center;">3</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <br>
+    <footer style="text-align: right;">
+        <a href="./layout.html">pagina exercicio 2</a>
+    </footer>
+
+    
+</body>
+</html>
